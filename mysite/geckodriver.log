@@ -642,3 +642,450 @@ console.error: BroadcastService:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
 
 1555997745903	Marionette	INFO	Stopped listening on port 56035
+1556265928555	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.p9R9DUYUSNv9"
+*** You are running in headless mode.
+1556265929241	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556265929242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556265929242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556265931020	Marionette	INFO	Listening on port 64238
+1556265931044	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://dl.acm.org/citation.cfm?id=2783293, line 651: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17477, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+Exiting due to channel error.
+1556954282321	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.eigKeyDF0yK2"
+*** You are running in headless mode.
+1556954282976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954282976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954282976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954285052	Marionette	INFO	Listening on port 57099
+1556954285100	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954295427	Marionette	INFO	Stopped listening on port 57099
+1556954384916	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.payFiC6CrqrX"
+*** You are running in headless mode.
+1556954385304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954385305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954385305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954386613	Marionette	INFO	Listening on port 57210
+1556954386656	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954394234	Marionette	INFO	Stopped listening on port 57210
+1556954630226	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.eswpn7mkDKZG"
+*** You are running in headless mode.
+1556954630625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954630625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954630625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954631963	Marionette	INFO	Listening on port 57325
+1556954632059	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954647227	Marionette	INFO	Stopped listening on port 57325
+1556954648640	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.NmNDb7Mm7FbH"
+*** You are running in headless mode.
+1556954649022	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954649022	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954649022	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954650357	Marionette	INFO	Listening on port 57419
+1556954650385	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556954711184	Marionette	INFO	Stopped listening on port 57419
+1556954712614	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.fDnjjnQ3b6d9"
+*** You are running in headless mode.
+1556954713004	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954713005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954713005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954714264	Marionette	INFO	Listening on port 57527
+1556954714349	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954727336	Marionette	INFO	Stopped listening on port 57527
+1556954728755	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.5I3q7wbGZXG7"
+*** You are running in headless mode.
+1556954729132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954729133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954729133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954730539	Marionette	INFO	Listening on port 57620
+1556954730593	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556954792376	Marionette	INFO	Stopped listening on port 57620
+1556954793808	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.ZVvg9EwPgLFS"
+*** You are running in headless mode.
+1556954794183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954794184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954794184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954795435	Marionette	INFO	Listening on port 57728
+1556954795541	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954806723	Marionette	INFO	Stopped listening on port 57728
+1556954808141	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.37IXE4xOJY9B"
+*** You are running in headless mode.
+1556954808517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954808517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954808517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954809845	Marionette	INFO	Listening on port 57815
+1556954809875	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954822589	Marionette	INFO	Stopped listening on port 57815
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+1556954824006	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.mwgw4zIRjnxr"
+*** You are running in headless mode.
+1556954824389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954824389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954824389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954825731	Marionette	INFO	Listening on port 57902
+1556954825737	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954837459	Marionette	INFO	Stopped listening on port 57902
+1556954838991	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.IWszpKXxTR9a"
+*** You are running in headless mode.
+1556954839375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954839375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954839376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954840636	Marionette	INFO	Listening on port 57991
+1556954840735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954852594	Marionette	INFO	Stopped listening on port 57991
+1556954854011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.oAAtbYb6dXXI"
+*** You are running in headless mode.
+1556954854394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954854394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954854394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954855652	Marionette	INFO	Listening on port 58083
+1556954855743	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556954916163	Marionette	INFO	Stopped listening on port 58083
+1556954917684	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.BwdPlZDOojnl"
+*** You are running in headless mode.
+1556954918064	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954918064	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954918064	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954919318	Marionette	INFO	Listening on port 58189
+1556954919416	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556954980119	Marionette	INFO	Stopped listening on port 58189
+1556954981542	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.j9LW2zGTKVep"
+*** You are running in headless mode.
+1556954981924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954981924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954981924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954983289	Marionette	INFO	Listening on port 58286
+1556954983375	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556954993888	Marionette	INFO	Stopped listening on port 58286
+1556954995306	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.CEFnoaI2BaNF"
+*** You are running in headless mode.
+1556954995683	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556954995684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556954995684	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556954996931	Marionette	INFO	Listening on port 58370
+1556954996937	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955009087	Marionette	INFO	Stopped listening on port 58370
+1556955010507	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.B5cFGaQFrTx6"
+*** You are running in headless mode.
+1556955010885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955010886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955010886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955012133	Marionette	INFO	Listening on port 58466
+1556955012142	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955023213	Marionette	INFO	Stopped listening on port 58466
+1556955024634	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.8UYMkWyk4QSj"
+*** You are running in headless mode.
+1556955025015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955025016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955025016	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955026284	Marionette	INFO	Listening on port 58555
+1556955026376	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955041084	Marionette	INFO	Stopped listening on port 58555
+1556955042615	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.3ISvZqlZYDUL"
+*** You are running in headless mode.
+1556955042997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955042998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955042998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955044308	Marionette	INFO	Listening on port 58649
+1556955044344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955063181	Marionette	INFO	Stopped listening on port 58649
+1556955064601	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.RM0Bp5SnHS2c"
+*** You are running in headless mode.
+1556955064982	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955064982	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955064982	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955066237	Marionette	INFO	Listening on port 58747
+1556955066326	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955079473	Marionette	INFO	Stopped listening on port 58747
+1556955081242	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.rYt2ANkyNUKj"
+*** You are running in headless mode.
+1556955081621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955081622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955081622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955082887	Marionette	INFO	Listening on port 58838
+1556955082968	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955097596	Marionette	INFO	Stopped listening on port 58838
+1556955099010	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.RFeUBdIDFC0p"
+*** You are running in headless mode.
+1556955099388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955099388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955099388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955100729	Marionette	INFO	Listening on port 58933
+1556955100751	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955115232	Marionette	INFO	Stopped listening on port 58933
+1556955116651	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.qn1go5yHilqJ"
+*** You are running in headless mode.
+1556955117034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955117035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955117035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955118365	Marionette	INFO	Listening on port 59022
+1556955118393	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955134954	Marionette	INFO	Stopped listening on port 59022
+1556955136386	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.3iGAPHWsSvzt"
+*** You are running in headless mode.
+1556955136763	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955136764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955136764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955138040	Marionette	INFO	Listening on port 59110
+1556955138128	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955149803	Marionette	INFO	Stopped listening on port 59110
+1556955151225	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.KdWvE76fBne8"
+*** You are running in headless mode.
+1556955151602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955151603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955151603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955152863	Marionette	INFO	Listening on port 59201
+1556955152965	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955167036	Marionette	INFO	Stopped listening on port 59201
+1556955168458	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.GttTPoO3VShg"
+*** You are running in headless mode.
+1556955168843	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955168843	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955168844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955170084	Marionette	INFO	Listening on port 59298
+1556955170097	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955180637	Marionette	INFO	Stopped listening on port 59298
+1556955182058	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.eT277YPvG8UL"
+*** You are running in headless mode.
+1556955182444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955182444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955182444	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955183707	Marionette	INFO	Listening on port 59387
+1556955183787	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955197557	Marionette	INFO	Stopped listening on port 59387
+1556955198974	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.uuxo9cObGEeT"
+*** You are running in headless mode.
+1556955199355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955199355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955199355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955200721	Marionette	INFO	Listening on port 59476
+1556955200810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955216780	Marionette	INFO	Stopped listening on port 59476
+1556955218216	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.vkFR3lHbYIzA"
+*** You are running in headless mode.
+1556955218594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955218594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955218594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955219858	Marionette	INFO	Listening on port 59569
+1556955219951	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955235645	Marionette	INFO	Stopped listening on port 59569
+1556955237067	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/kd/7vdk5h_j6yvf9hg9ppbl1dzh0000gn/T/rust_mozprofile.FfIy2nfwI711"
+*** You are running in headless mode.
+1556955237445	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556955237446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556955237446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556955238839	Marionette	INFO	Listening on port 59658
+1556955238907	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ieeexplore.ieee.org/assets/dist/js/vendor.js?cv=20190416_000001, line 33: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1556955249232	Marionette	INFO	Stopped listening on port 59658
