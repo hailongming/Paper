@@ -1,41 +1,101 @@
-
+<!doctype html>
 <html lang="en">
 {% load staticfiles %}
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>论文查找系统</title>
+    <title>论文关系可视化系统</title>
     <link rel="stylesheet" href="{% static 'bootstrap-4.3.1-dist/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'mystyle.css' %}">
+    <script src="{% static 'jquery.min.js' %}"></script>
+    <link rel="shortcut icon" href="{% static 'images/icon5.png' %}"/>
+
 </head>
 <body>
+    <div class="container-fluid">
+        <div style="margin-top: 2%;margin-right: 3%;text-align: right;">
+            {%  if request.user.is_authenticated  %}
+            <button class="btn btn-outline-success" type="submit">已登录</button>
+            {% else %}
+            <button class="btn btn-outline-success" type="submit">登 录</button>
+            {% endif %}
+        </div>
+    </div>
     <div class="container">
 
-        <div class="page-header">
-            <h1>论文推荐系统</h1>
+<!--        <div class="page-header">-->
+<!--            <h1>论文推荐系统</h1>-->
+<!--        </div>-->
+
+<!--        <div class="media">-->
+<!--            <img class="align-self-center mr-3" src="{% static "images/icon7.png" %}" height="120" width="120">-->
+<!--            <div class="media-body">-->
+<!--                <h5 class="mt-0">论文推荐系统</h5>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <div style="margin-top: 3%">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-1">
+                    <img src="{% static 'images/icon5.png' %}">
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col"><p></p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><p></p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><p></p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-center">论文关系可视化</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><p></p></div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
         </div>
-        <div align="center">
-            <img src="{% static "images/icon.jpeg" %}" height="200" width="200">
-        </div>
-        <div class="row m-auto">
-            <div class="col" style="height: 10%"></div>
-        </div>
-        <div class="row m-auto">
+
+        <div class="row" style="margin-top: 5%;">
             <div class="col">
                 <form action="{% url 'papers:detail' %}" method="post">
                     {% csrf_token %}
                     <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" name="kw" />
+                        <input type="text" class="form-control" id="kw" name="kw" autocomplete="off" />
                         <span class="input-group-append">
-                            <button class="btn btn-primary btn-lg" type="submit">查找</button>
+                            <button class="btn btn-primary btn-lg" type="submit" id="submit">查找</button>
                         </span>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="row m-auto">
-            <div class="col" style="height: 10%"></div>
+
+        <div class="row" style="margin-top: 15%">
+            <div class="col">
+                <p>关键词推荐:</p>
+                <div class="row m-auto">
+                    <div class="col text-center">
+                        <button class="btn btn-info" type="button" id="button1">big data</button>
+                    </div>
+                    <div class="col text-center">
+                        <button class="btn btn-info" type="button" id="button2">data mining</button>
+                    </div>
+                    <div class="col text-center">
+                        <button class="btn btn-info" type="button" id="button3">NPL</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row m-auto">
-            <div class="col" style="height: 35%">
+
+        <div>
+        <div class="row" style="margin-top: 5%;">
+            <div class="col">
                 <p>友情链接：</p>
                 <div class="row m-auto">
                     <div class="col text-center">
@@ -53,6 +113,7 @@
                 </div>
             </div>
         </div>
+        </div>
 
    </div>
 
@@ -60,3 +121,24 @@
 </div>
 </body>
 </html>
+<script>
+    $("#button2").click(function () {
+        var kw = $("#button2").text();
+        $("input[name='kw']").val(kw);
+        $("#submit").click();
+    })
+</script>
+<script>
+    $("#button1").click(function () {
+        var kw = $("#button1").text();
+        $("input[name='kw']").val(kw);
+        $("#submit").click();
+    })
+</script>
+<script>
+    $("#button3").click(function () {
+        var kw = $("#button3").text();
+        $("input[name='kw']").val(kw);
+        $("#submit").click();
+    })
+</script>

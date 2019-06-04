@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.http import Http404
+from django.contrib.auth import authenticate, login, logout
 
 import requests
 import json
@@ -312,8 +314,12 @@ def detail(request):
         'source': "某男",
     }]
 
+
+
     # papers = Paper.objects.all()
     papers = Paper.objects.filter(tag=key_word)
+    if not papers:
+        return render(request, 'papers/kw_not_found.html')
 
     # 作者之间的引用数据
     data, link = draw_auth_link(key_word)
@@ -322,3 +328,19 @@ def detail(request):
     return render(request, 'papers/detail.html',
                   {'data': json.dumps(data), 'link': json.dumps(link), 'papers': papers,
                    'paper_data': paper_data, 'paper_link': paper_link})
+
+
+def my_login(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return render(request, 'papers/home.html')
+    return render(request, 'papers/login.html')
+
+
+def my_logout(request):
+    logout(request)
+    return render(request, 'papers/index.html')

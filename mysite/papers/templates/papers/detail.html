@@ -15,26 +15,57 @@
 <!--</html>-->
 
 
-
+<!doctype html>
 <html>
+{% load staticfiles %}
 	<head>
 		<meta charset="UTF-8">
 		<title>detail</title>
 <!--         引入bootstrap文件-->
         <link rel="stylesheet" href="{% static 'bootstrap-4.3.1-dist/css/bootstrap.min.css' %}">
-		<!-- 引入 ECharts 文件 -->
+		<link rel="shortcut icon" href="{% static 'images/icon5.png' %}"/>
+        <!-- 引入 ECharts 文件 -->
 		<script src="{% static 'echarts.min.js'%}" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
     <div class="container">
-        <div class="page-header">
-            <h1>搜索结果</h1>
-        </div>
-        <div id="p-url" class="row" style="margin-bottom: 50px">
-            <div class="col">
-                <h3 class="text-center">论文推荐</h3>
-                <div style="border: #005cbf 3px solid;">
-                    <ul class="list-group">
+<!--        <div class="page-header">-->
+<!--            <h1>搜索结果</h1>-->
+<!--        </div>-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
+            <a class="navbar-brand" href="{% url 'papers:index' %}">论文关系可视化系统</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'papers:index' %}">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#p-url">论文推荐</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#p-auth">作者关系图</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#p-paper">论文关系图</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" action="{% url 'papers:detail' %}" method="post">
+                    {% csrf_token %}
+                    <input class="form-control mr-sm-2" name="kw" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div style="margin-bottom: 75px"></div>
+
+        <div id="p-url" class="card" style="margin-bottom: 50px">
+            <div class="card-header">
+                论文推荐
+            </div>
+            <div class="card-body">
+                <div>
+                    <ul class="list-group list-group-flush">
                     {% for paper in papers %}
                     <li class="list-group-item">
                         <a href="{{ paper.link }}">{{ paper.title }}</a>
@@ -45,23 +76,23 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-bottom: 50px">
-            <div class="col">
-                <h3 class="text-center">作者关系可视化</h3>
-                <p class="text-center">使用鼠标进行拖拽，使用滚轮进行放大缩小，鼠标放置在节点上重点突出。</p>
-                <!-- 为 ECharts 准备一个具备大小（宽高）的 容器 -->
-                <div id="chart1" style="width: 100%;height: 600px;border: 3px solid #FF0000;">
-                </div>
+
+        <div id="p-auth" class="card" style="margin-bottom: 50px">
+            <div class="card-body">
+                <h5 class="card-title">作者关系图</h5>
+                <p class="card-text">使用鼠标进行拖拽，使用滚轮进行放大缩小，鼠标放置在节点上重点突出。</p>
+            </div>
+            <div id="chart1" style="width: 100%;height: 600px;border: 1px solid rgba(0,0,0,.125);">
             </div>
         </div>
 
-        <div class="row" style="margin-bottom: 50px">
-            <div class="col">
-                <h3 class="text-center">论文关系可视化</h3>
-                <p class="text-center">使用鼠标进行拖拽，使用滚轮进行放大缩小，鼠标放置在节点上重点突出。</p>
+        <div id="p-paper" class="card" style="margin-bottom: 50px">
+            <div class="card-body">
+                <h5 class="card-title">论文关系图</h5>
+                <p class="card-text">使用鼠标进行拖拽，使用滚轮进行放大缩小，鼠标放置在节点上重点突出。</p>
+            </div>
                 <!-- 为 ECharts 准备一个具备大小（宽高）的 容器 -->
-                <div id="chart2" style="width: 100%;height: 600px;border: 3px solid #FF0000;">
-                </div>
+            <div id="chart2" style="width: 100%;height: 600px;border: 1px solid rgba(0,0,0,.125);">
             </div>
         </div>
     </div>
@@ -73,7 +104,7 @@
 	var chart1 = echarts.init(document.getElementById("chart1"));
 
 	var	option = {
-		backgroundColor: '#ccc',	// 背景颜色
+		backgroundColor: '#D0D3D4',	// 背景颜色
 	    title: {                    // 图表标题
 	        text: "作者关系分析",           // 标题文本
 	        left : '3%',                    // 标题距离左侧边距
@@ -152,6 +183,12 @@
 
 	// 使用刚指定的配置项和数据显示图表
 	chart1.setOption(option)
+
+    // 设置点击事件，点击可以进行谷歌学术搜索
+    chart1.on('click', function (param) {
+        var name = param.name;
+        window.location.href="https://scholar.google.com.hk/scholar?q="+name;
+    });
 </script>
 
 <script type="text/javascript">
@@ -238,4 +275,10 @@
 
 	// 使用刚指定的配置项和数据显示图表
 	chart1.setOption(option)
+
+    // 设置点击事件，点击可以进行谷歌学术搜索
+    chart1.on('click', function (param) {
+        var name = param.name;
+        window.location.href="https://scholar.google.com.hk/scholar?q="+name;
+    });
 </script>
